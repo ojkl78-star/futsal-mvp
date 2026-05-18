@@ -142,7 +142,7 @@ export default function App() {
                     <span style={{ fontSize:i<3?26:14, minWidth:30, textAlign:"center", color:C.muted, fontWeight:700 }}>{medal}</span>
                     <div style={{ flex:1 }}>
                       <div style={{ fontWeight:700, fontSize:16 }}>{p.name}</div>
-                      <div style={{ color:C.muted, fontSize:12, marginTop:2 }}>MVP {p.mvpTotal}점 · 출석 {p.attendancePoint}점</div>
+                      <div style={{ color:C.muted, fontSize:12, marginTop:2 }}>매치 {p.matchCount}경기 · 자체전 {p.selfCount}경기 · 출석 {p.attendancePoint}점</div>
                     </div>
                     <div style={{ textAlign:"right" }}>
                       <div style={{ fontSize:28, fontWeight:900, color:hl, lineHeight:1 }}>{p.total}</div>
